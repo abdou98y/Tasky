@@ -1,5 +1,8 @@
 ### Tasky
 
+![tasky gif](https://github.com/user-attachments/assets/77832053-c0e0-4a79-850e-d00d7eb2e290)
+
+
 Task Management Application
 
 A robust task management application built with the Frappe framework, showcasing my skills in building role-based access control systems and user-centric functionalities.
