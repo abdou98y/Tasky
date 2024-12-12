@@ -1,7 +1,24 @@
 ### Tasky
 
-Task Management App
+Task Management Application
 
+A robust task management application built with the Frappe framework, showcasing my skills in building role-based access control systems and user-centric functionalities.
+Key Features:
+
+    Role-Based Access Control:
+        Two distinct roles: Manager and Member.
+        Managers can create tasks and have exclusive rights to update critical fields.
+        Members can view and update task progress within assigned permissions.
+
+    Automatic Field Updates:
+        Tasks include an "Assigned By" field that is automatically populated with the manager's account who created the task.
+        Real-time progress bar updates dynamically linked to the progress percentage field.
+
+    Custom User Experience:
+        Dynamic task filtering:
+            Managers view all tasks.
+            Members see tasks filtered specifically for their accounts.
+        Users are automatically redirected to the tasks list upon login, ensuring a seamless workflow 
 ### Installation
 
 You can install this app using the [bench](https://github.com/frappe/bench) CLI:
