@@ -10,6 +10,8 @@ app_license = "mit"
 
 # required_apps = []
 
+on_session_creation = "tasky.tasky.doctype.task.task.redirect_users_to_page"
+
 # Each item in the list will be shown as an app in the apps page
 # add_to_apps_screen = [
 # 	{
